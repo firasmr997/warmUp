@@ -2,6 +2,11 @@
 // - takes 2 arguments, both numbers.
 // - returns whichever number is the greater (higher) number.
 // ex greaterNum(5, 10) => "The greater number of 5 and 10 is 10."
+function greaterNum(x,y){
+    if(x>y){
+        return x
+    }return y;
+}
 
 
 
@@ -9,12 +14,28 @@
 // -  iterate from x to y.
 // -  return array contain the even values,
 //  ex:  isEven(1,10) => [2,4,6,8,10]
-
+function isEven(x,y){
+    var tab=[];
+    tab[0]=x;
+    j=0;
+    
+    for(var i=x;x<y;x++){
+       if (tab[j]%2==0){
+           tab[j]=x+1
+        j++;}
+    }return tab;
+}
 
 //3) write a function named sum that 
 // - Use a while loop to add up the numbers from x to y.
 // ex sum(1,5) => 15
-
+// function sum(x,y){
+//     var s=0;
+   
+// while(x<y){ 
+//     s=x;
+//      s=s+1;
+// }return s;
 
 //4) Write a function named factorial that 
 // -  Use Recursion to calculate the factorial of a number
