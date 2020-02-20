@@ -1,0 +1,28 @@
+body {
+    background-color: Blue;
+}
+    .column {
+        float: left;
+        width: 30%;
+        padding: 5px;
+      }
+      
+      
+      .row {
+        content: "";
+        clear: both;
+        display: table;
+      }
+#hide {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#show {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color :white;
+    font-size: x-large;
+    background-color: white;
+}
