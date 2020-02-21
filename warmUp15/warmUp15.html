@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="warmUp-15.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="warmUp15.css">
+    <script>
+        $(document).ready(function(){
+         $('button').click(function() {
+             var list = $('#textAdd').val();
+            $('#ul_current').append('<li>'+ list+'</li>');
+            return false;
+         });
+        });
+    </script>
+</head>
+
+<body>
+    <form>
+        <input type="text" id="textAdd" name="text" placeholder="Write your text here!">
+        <br>
+        <button>Submit</button>
+        <ul id="ul_current">
+            <li>Hi!</li>
+            <li>Hello!</li>
+            <li>Hey!</li>
+         </ul>
+
+    </form>
+</body>
+</html>
